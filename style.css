@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d9d9d9;
+  }
+  
+  
+  header {
+    background-color: skyblue;
+    padding: 20px 50px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 64px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .intro-section {
+    padding: 50px;
+    width: 100%;
+    
+    
+    background-color: rgba(217, 217, 217, 1);
+  }
+  
+  .intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .profile-img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .intro-text {
+    max-width: 600px;
+    text-align: center;
+    font-weight: bold;
+
+  }
+  
+  .intro-text h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+    font-size: 18px;
+  }
+  
+  .hi-img {
+    width: 250px;
+    border-radius: 30%;
+  }
+  
+  
+  .info-section {
+    padding: 40px 50px;
+    background-color: rgba(217, 217, 217, 1);
+    font-size: 18px;
+    margin-left: 200px;
+    
+  }
+  
+  .info p {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .hobbies-section {
+    padding: 100px 10px;
+   
+    text-align: center;
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 50px;
+  }
+  
+  .hobbies-section h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  
+  .hobbies {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+  }
+  
+  .hobby img {
+    width: 300px;
+    
+  }
+  
+  .hobby p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  
+  .contact-section {
+    padding: 40px 50px;
+    background-color:rgba(217, 217, 217, 1);
+    text-align: center;
+   padding: 200px ;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+  }
+  
+  .contact-form input
+   {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgba(217, 217, 217, 1) ;
+  }
+  .contact-form textarea{
+    width: 100%;
+    padding: 5px;
+    height: 200px;
+    font-size: 16px;
+    background-color: rgba(217, 217, 217, 1) ;
+
+  }
+  .hihi{
+   
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    justify-content: center;
+    
+  }
+  .contact-section h2{
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .contact-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+     background-color:rgba(217, 217, 217, 1) ;
+    border: none;
+    cursor: pointer;
+  }
+  .hipic{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+  }
+  .submit{
+    width: 100%;
+    
+  }
+  
+  
+  
+  hr{
+    height: 5px;
+  background-color: black;
+  border: none;
+  width: 100%;
+  margin: 20px 0;
+  }
+  
+  @media (max-width:900px) {
+    .contact-form{
+      width: 100%;
+    }
+    .contact-section{
+      padding:0px;
+    }
+    
+  }
